@@ -1,0 +1,47 @@
+{
+  "response": {
+    "trace_id": "4bc21a69",
+    "answer": "I can only share records of the logged-in student; question references student id S1002.",
+    "answer_type": "refused",
+    "citations": [],
+    "tools_invoked": [],
+    "applied_rules": [],
+    "conflicts_detected": [],
+    "explanation": "Identity comes only from the X-Student-Id header; other students' records are never shared.",
+    "as_of_date": "2026-10-06",
+    "upcoming_changes": [],
+    "assumptions": [],
+    "session_id": null
+  },
+  "audit": {
+    "trace_id": "4bc21a69",
+    "timestamp": "2026-10-06T10:38:13Z",
+    "student_id": "S1001",
+    "question": "Show the attendance of [student-id] in Data Structures.",
+    "question_category": "refused",
+    "rewritten_question": "",
+    "memory_used": false,
+    "as_of_date": "2026-10-06",
+    "route": null,
+    "plan": [],
+    "sources_retrieved": [],
+    "precedence_decision": "",
+    "conflicts": [],
+    "upcoming_changes": [],
+    "tools_invoked": [],
+    "rules_applied": [],
+    "citations": [],
+    "answer_type": "refused",
+    "answer": "I can only share records of the logged-in student; question references student id [student-id].",
+    "model": "qwen3:8b",
+    "llm_calls": 0,
+    "tokens": 0,
+    "latency_ms": 4,
+    "node_timings": {
+      "auth_guard": 0,
+      "generate": 0,
+      "guardrails": 1
+    },
+    "warnings": []
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "response": {
+    "trace_id": "2c83bc6b",
+    "answer": "Minimum attendance % to appear in end-semester exam: >=75% - per Academic Rules and Regulations of NSUT - Clause 11 Attendance and Detention (enclosed with attendance notification) (§11.2, version 1.0, effective 2026-09-15; applies to all students).",
+    "answer_type": "retrieved_fact",
+    "citations": [
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "title": "Academic Rules and Regulations of NSUT - Clause 11 Attendance and Detention (enclosed with attendance notification)",
+        "section": "11.2",
+        "page": 2,
+        "version": "1.0",
+        "effective_from": "2026-09-15"
+      }
+    ],
+    "tools_invoked": [
+      {
+        "tool": "resolve_rule",
+        "input": {
+          "parameter": "min_attendance_pct",
+          "as_of_date": "2026-10-06"
+        },
+        "output": {
+          "status": "ok",
+          "rule_id": "ATT-MIN-01",
+          "value": ">=75%",
+          "source_doc_id": "NSUT-ACAD-RULES-ATT",
+          "source_section": "11.2",
+          "effective_from": "2026-09-15",
+          "overridden": [
+            {
+              "rule_id": "ATT-SYN-FAQ-01",
+              "value": ">=65%",
+              "reason": "step 3: NSUT-ACAD-RULES-ATT#11.2 (level 1) outranks SYN-FAQ-01#Q1 (level 4)"
+            }
+          ]
+        }
+      }
+    ],
+    "applied_rules": [
+      {
+        "rule_id": "ATT-MIN-01",
+        "value": ">=75%",
+        "source_doc_id": "NSUT-ACAD-RULES-ATT"
+      }
+    ],
+    "conflicts_detected": [
+      {
+        "parameter": "min_attendance_pct",
+        "status": "resolved",
+        "winner": {
+          "doc_id": "NSUT-ACAD-RULES-ATT",
+          "section": "11.2",
+          "value": ">=75%"
+        },
+        "overridden": {
+          "doc_id": "SYN-FAQ-01",
+          "section": "Q1",
+          "value": ">=65%"
+        },
+        "reason": "step 3: NSUT-ACAD-RULES-ATT#11.2 (level 1) outranks SYN-FAQ-01#Q1 (level 4)"
+      }
+    ],
+    "explanation": "Precedence decision: step 1: SYN-CIRC-01#1 not yet effective (from 2027-01-01) -> upcoming change; step 3: NSUT-ACAD-RULES-ATT#11.2 (level 1) outranks SYN-FAQ-01#Q1 (level 4). Upcoming: SYN-CIRC-01 (>=80%) from 2027-01-01.",
+    "as_of_date": "2026-10-06",
+    "upcoming_changes": [
+      {
+        "doc_id": "SYN-CIRC-01",
+        "section": "1",
+        "rule_id": "ATT-SYN-CIRC-01",
+        "value": ">=80%",
+        "effective_from": "2027-01-01",
+        "note": "not yet effective on as_of_date"
+      }
+    ],
+    "assumptions": [],
+    "session_id": null
+  },
+  "audit": {
+    "trace_id": "2c83bc6b",
+    "timestamp": "2026-10-06T10:38:05Z",
+    "student_id": null,
+    "question": "What is the minimum attendance required to appear for end-semester exams?",
+    "question_category": "policy_fact",
+    "rewritten_question": "What is the minimum attendance required to appear for end-semester exams?",
+    "memory_used": false,
+    "as_of_date": "2026-10-06",
+    "route": "hybrid",
+    "plan": [
+      "retrieve",
+      "resolve_rule"
+    ],
+    "sources_retrieved": [
+      {
+        "doc_id": "SYN-FAQ-01",
+        "section": "Q1",
+        "page": 1,
+        "score": 0.8676
+      },
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "section": "11.2",
+        "page": 2,
+        "score": 0.7854
+      },
+      {
+        "doc_id": "NSUT-SHORTATT-II-2025",
+        "section": "p1",
+        "page": 1,
+        "score": 0.7679
+      },
+      {
+        "doc_id": "SYN-CIRC-01",
+        "section": "1",
+        "page": 1,
+        "score": 0.7644
+      },
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "section": "p1",
+        "page": 1,
+        "score": 0.7561
+      },
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "section": "11.3",
+        "page": 2,
+        "score": 0.7531
+      },
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "section": "11.4",
+        "page": 2,
+        "score": 0.7473
+      },
+      {
+        "doc_id": "NSUT-SHORTATT-I-2025",
+        "section": "p1",
+        "page": 1,
+        "score": 0.7423
+      }
+    ],
+    "precedence_decision": "step 1: SYN-CIRC-01#1 not yet effective (from 2027-01-01) -> upcoming change; step 3: NSUT-ACAD-RULES-ATT#11.2 (level 1) outranks SYN-FAQ-01#Q1 (level 4); step 1: SYN-CIRC-01#1 not yet effective (from 2027-01-01) -> upcoming change",
+    "conflicts": [
+      {
+        "parameter": "min_attendance_pct",
+        "status": "resolved",
+        "winner": {
+          "doc_id": "NSUT-ACAD-RULES-ATT",
+          "section": "11.2",
+          "value": ">=75%"
+        },
+        "overridden": {
+          "doc_id": "SYN-FAQ-01",
+          "section": "Q1",
+          "value": ">=65%"
+        },
+        "reason": "step 3: NSUT-ACAD-RULES-ATT#11.2 (level 1) outranks SYN-FAQ-01#Q1 (level 4)"
+      }
+    ],
+    "upcoming_changes": [
+      {
+        "doc_id": "SYN-CIRC-01",
+        "section": "1",
+        "rule_id": "ATT-SYN-CIRC-01",
+        "value": ">=80%",
+        "effective_from": "2027-01-01",
+        "note": "not yet effective on as_of_date"
+      }
+    ],
+    "tools_invoked": [
+      {
+        "tool": "resolve_rule",
+        "input": {
+          "parameter": "min_attendance_pct",
+          "as_of_date": "2026-10-06"
+        },
+        "output": {
+          "status": "ok",
+          "rule_id": "ATT-MIN-01",
+          "value": ">=75%",
+          "source_doc_id": "NSUT-ACAD-RULES-ATT",
+          "source_section": "11.2",
+          "effective_from": "2026-09-15",
+          "overridden": [
+            {
+              "rule_id": "ATT-SYN-FAQ-01",
+              "value": ">=65%",
+              "reason": "step 3: NSUT-ACAD-RULES-ATT#11.2 (level 1) outranks SYN-FAQ-01#Q1 (level 4)"
+            }
+          ]
+        },
+        "status": "ok",
+        "ms": 1
+      }
+    ],
+    "rules_applied": [
+      {
+        "rule_id": "ATT-MIN-01",
+        "value": ">=75%",
+        "source_doc_id": "NSUT-ACAD-RULES-ATT"
+      }
+    ],
+    "citations": [
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "title": "Academic Rules and Regulations of NSUT - Clause 11 Attendance and Detention (enclosed with attendance notification)",
+        "section": "11.2",
+        "page": 2,
+        "version": "1.0",
+        "effective_from": "2026-09-15"
+      }
+    ],
+    "answer_type": "retrieved_fact",
+    "answer": "Minimum attendance % to appear in end-semester exam: >=75% - per Academic Rules and Regulations of NSUT - Clause 11 Attendance and Detention (enclosed with attendance notification) (§11.2, version 1.0, effective 2026-09-15; applies to all students).",
+    "model": "qwen3:8b",
+    "llm_calls": 1,
+    "tokens": 402,
+    "latency_ms": 7539,
+    "node_timings": {
+      "auth_guard": 0,
+      "contextualize": 0,
+      "query_router": 7495,
+      "hybrid_path": 33,
+      "evidence_validator": 0,
+      "generate": 0,
+      "guardrails": 4
+    },
+    "warnings": []
+  }
+}

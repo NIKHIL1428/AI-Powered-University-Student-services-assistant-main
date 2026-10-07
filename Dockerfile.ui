@@ -1,0 +1,7 @@
+FROM python:3.11-slim
+ENV PYTHONUNBUFFERED=1 PIP_NO_CACHE_DIR=1
+WORKDIR /app
+RUN pip install "streamlit>=1.40" "requests>=2.32" "pandas>=2.2"
+COPY ui/ ui/
+EXPOSE 8501
+CMD ["streamlit", "run", "ui/streamlit_app.py", "--server.port=8501", "--server.address=0.0.0.0", "--browser.gatherUsageStats=false"]

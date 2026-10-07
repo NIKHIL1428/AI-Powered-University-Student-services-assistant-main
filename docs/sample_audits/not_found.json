@@ -1,0 +1,102 @@
+{
+  "response": {
+    "trace_id": "54dd2c22",
+    "answer": "I could not find this information in the authorised university sources.",
+    "answer_type": "not_found",
+    "citations": [],
+    "tools_invoked": [],
+    "applied_rules": [],
+    "conflicts_detected": [],
+    "explanation": "The sources do not mention: Antarctica.",
+    "as_of_date": "2026-10-06",
+    "upcoming_changes": [],
+    "assumptions": [],
+    "session_id": null
+  },
+  "audit": {
+    "trace_id": "54dd2c22",
+    "timestamp": "2026-10-06T10:38:13Z",
+    "student_id": null,
+    "question": "What is the scholarship for studying in Antarctica?",
+    "question_category": "out_of_scope",
+    "rewritten_question": "What is the scholarship for studying in Antarctica?",
+    "memory_used": false,
+    "as_of_date": "2026-10-06",
+    "route": "rag",
+    "plan": [
+      "retrieve"
+    ],
+    "sources_retrieved": [
+      {
+        "doc_id": "NSUT-SCH-NSP-2026",
+        "section": "20",
+        "page": 5,
+        "score": 0.5733
+      },
+      {
+        "doc_id": "NSUT-SCH-EDISTRICT-2026-09",
+        "section": "p1",
+        "page": 1,
+        "score": 0.5686
+      },
+      {
+        "doc_id": "NSUT-SCH-NSP-2026",
+        "section": "11",
+        "page": 3,
+        "score": 0.5655
+      },
+      {
+        "doc_id": "NSUT-SCH-SDEF-2026",
+        "section": "p2",
+        "page": 2,
+        "score": 0.56
+      },
+      {
+        "doc_id": "NSUT-SCH-NSP-2026",
+        "section": "19",
+        "page": 5,
+        "score": 0.5597
+      },
+      {
+        "doc_id": "NSUT-SCH-SDEF-2026",
+        "section": "p4",
+        "page": 4,
+        "score": 0.5594
+      },
+      {
+        "doc_id": "NSUT-SCH-AICTE-2026",
+        "section": "p1",
+        "page": 1,
+        "score": 0.5581
+      },
+      {
+        "doc_id": "NSUT-SCH-NSP-2026",
+        "section": "21",
+        "page": 5,
+        "score": 0.5574
+      }
+    ],
+    "precedence_decision": "no competing sources",
+    "conflicts": [],
+    "upcoming_changes": [],
+    "tools_invoked": [],
+    "rules_applied": [],
+    "citations": [],
+    "answer_type": "not_found",
+    "answer": "I could not find this information in the authorised university sources.",
+    "model": "qwen3:8b",
+    "llm_calls": 1,
+    "tokens": 402,
+    "latency_ms": 8143,
+    "node_timings": {
+      "auth_guard": 0,
+      "contextualize": 0,
+      "query_router": 8105,
+      "rag_path": 28,
+      "evidence_validator": 0,
+      "generate": 0,
+      "guardrails": 1
+    },
+    "warnings": []
+  }
+}

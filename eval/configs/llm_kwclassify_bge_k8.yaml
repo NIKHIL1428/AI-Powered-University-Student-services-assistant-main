@@ -1,0 +1,6 @@
+description: qwen3:8b compose only, keyword classifier
+embed_model: bge
+top_k: 8
+chunk_strategy: clause
+mock_llm: false
+classify_mode: keyword

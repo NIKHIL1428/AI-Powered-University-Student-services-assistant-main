@@ -1,0 +1,4 @@
+description: default - bge-small, clause-aware chunks, top_k 8
+embed_model: bge
+top_k: 8
+chunk_strategy: clause

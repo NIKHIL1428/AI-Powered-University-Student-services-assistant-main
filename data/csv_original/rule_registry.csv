@@ -1,0 +1,4 @@
+rule_id,description,parameter,operator,value,scope_programmes,scope_batches,effective_from,effective_to,source_doc_id,source_section
+ATT_MIN_2026,Minimum attendance requirement,attendance_percentage,>=,75,B.Tech,2022-2026,2026-07-01,,ATT_REG_2026,Section 4.2
+PASS_MIN_2026,Minimum total marks required to pass,total_marks,>=,40,B.Tech,2022-2026,2026-01-01,,EXAM_REG_2026,Section 6.1
+BACKLOG_MAX_EXAM,Maximum active backlogs allowed for examination eligibility,active_backlogs,<=,3,B.Tech,2022-2026,2026-01-01,,ACADEMIC_REG_2026,Section 7.3

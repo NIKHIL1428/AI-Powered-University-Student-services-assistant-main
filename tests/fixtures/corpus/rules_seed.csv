@@ -1,0 +1,7 @@
+rule_id,description,parameter,operator,value,scope_programmes,scope_batches,effective_from,effective_to,source_doc_id,source_section
+ATT-MIN-01,Minimum attendance per course to appear in end-semester exam,min_attendance_pct,>=,75,,,,,FIX-REG-2024,7.2
+PASS-MIN-01,Minimum total marks to pass a course,min_total_marks_pct,>=,40,,,,,FIX-REG-2024,8.2
+SUPP-ELIG-01,Results that make a student eligible for the supplementary exam,supplementary_allowed_results,in,FAIL;ABSENT,,,,,FIX-REG-2024,9.1
+PLC-CGPA-01,Minimum CGPA for placement registration,placement_min_cgpa,>=,6.5,,,,,FIX-PLC-2025,3.1
+PLC-BKLG-01,Maximum active backlogs for placement registration,placement_max_backlogs,<=,0,,,,,FIX-PLC-2025,3.2
+ATT-RELAX-DEAN-01,Dean may condone attendance shortage up to 10%,attendance_relaxation_dean_pct,<=,10,,,,,FIX-REG-2024,7.3

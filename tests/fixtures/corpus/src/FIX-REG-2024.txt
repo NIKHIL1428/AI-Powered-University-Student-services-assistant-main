@@ -1,0 +1,27 @@
+TEST FIXTURE - NOT AN OFFICIAL DOCUMENT
+Academic Regulations for B.Tech Programmes (Fixture)
+Issued by the Office of the Dean (Academics). Version 3.1, effective 1 July 2024.
+
+1. Short Title and Applicability
+These regulations apply to all students admitted to the B.Tech programmes of the University.
+
+2. Definitions
+2.1 "Course" means a unit of study with a course code and credits.
+2.2 "Active backlog" means a course that a student has failed or been absent in and has not yet cleared.
+2.3 "Detained" means a student who is not permitted to appear in the end-semester examination of a course.
+\f
+7. Attendance
+7.1 Attendance is computed separately for each course as classes attended divided by classes held, expressed as a percentage.
+7.2 A student must have a minimum of 75% attendance in each course to be eligible to appear in the end-semester examination of that course.
+7.3 Subject to clause 7.2, the Dean (Academics) may condone a shortage of up to 10% on documented medical grounds. No condonation is permitted beyond this limit.
+7.4 A student who does not satisfy clause 7.2 (after any condonation under clause 7.3) shall be detained in that course and must re-register for it.
+\f
+8. Examinations and Passing
+8.1 Each course carries 100 marks: 40 marks for internal assessment and 60 marks for the end-semester examination.
+8.2 To pass a course, a student must obtain a minimum of 40% of the total marks in that course.
+8.3 Grading table:
+Marks 90-100 Grade O (10 points); 80-89 A+ (9); 70-79 A (8); 60-69 B+ (7); 50-59 B (6); 40-49 C (5); below 40 F (0).
+9. Supplementary Examinations
+9.1 A student who has failed in a course, or was absent in its end-semester examination, is eligible to appear in the supplementary examination of that course. A detained student is not eligible to appear in the supplementary examination.
+9.2 Procedure: The student shall apply through the ERP portal within 7 days of the declaration of results, pay the supplementary examination fee of Rs 1000 per course, and collect the admit card from the Examination Branch.
+9.3 Internal assessment marks are carried forward to the supplementary examination.

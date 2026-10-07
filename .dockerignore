@@ -1,0 +1,10 @@
+.venv
+.git
+**/__pycache__
+data/chroma
+data/dev
+data/ocr_cache
+data/university.db*
+eval/results/*.txt
+.env
+.pytest_cache

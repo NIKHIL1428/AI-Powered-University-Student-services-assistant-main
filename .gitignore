@@ -1,0 +1,40 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+!.env.fixtures
+
+# Database & vector stores
+chroma_db/
+data/chroma/
+data/structured/
+data/university.db
+data/university.db-*
+data/ocr_cache/
+data/dev/
+*.db
+*.sqlite3
+
+# Logs and system artifacts
+*.log
+eval/results/*.jsonl
+eval/results/log_*.txt
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

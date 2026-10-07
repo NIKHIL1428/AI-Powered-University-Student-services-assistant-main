@@ -1,0 +1,6 @@
+description: full pipeline, qwen3:8b for classify + compose
+embed_model: bge
+top_k: 8
+chunk_strategy: clause
+mock_llm: false
+classify_mode: llm

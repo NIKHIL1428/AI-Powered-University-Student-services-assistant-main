@@ -1,0 +1,11 @@
+student_id,full_name,programme,batch_year,current_semester,cgpa,active_backlogs
+S8001,Aarav Testcase,B.Tech CSE,2023,7,8.20,0
+S8002,Diya Fixture,B.Tech CSE,2023,7,7.40,0
+S8003,Kabir Sample,B.Tech CSE,2023,7,7.00,0
+S8004,Meera Mockdata,B.Tech CSE,2023,7,7.10,1
+S8005,Rohan Synthetic,B.Tech CSE,2023,7,6.90,1
+S8006,Isha Dummy,B.Tech CSE,2023,7,6.10,1
+S8007,Vikram Placeholder,B.Tech CSE,2023,7,5.40,3
+S8008,Ananya Edgecase,B.Tech IT,2024,5,6.50,0
+S8009,Arjun Boundary,B.Tech IT,2024,5,6.49,0
+S8010,Nisha Example,B.Tech IT,2024,5,8.80,0

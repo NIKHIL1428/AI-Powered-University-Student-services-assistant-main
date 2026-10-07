@@ -1,0 +1,362 @@
+{
+  "response": {
+    "trace_id": "3e5b9946",
+    "answer": "You are not eligible to appear in the end-semester exam for CS301 (Data Structures): attendance 60.0% (24/40) is below the required 75% - short by 6 class(es). 60.0% is below the Dean's relaxation limit but within the further exceptional relaxation (down to 60%) on committee recommendation.",
+    "answer_type": "calculated",
+    "citations": [
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "title": "Academic Rules and Regulations of NSUT - Clause 11 Attendance and Detention (enclosed with attendance notification)",
+        "section": "11.3",
+        "page": 2,
+        "version": "1.0",
+        "effective_from": "2026-09-15"
+      },
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "title": "Academic Rules and Regulations of NSUT - Clause 11 Attendance and Detention (enclosed with attendance notification)",
+        "section": "11.4",
+        "page": 2,
+        "version": "1.0",
+        "effective_from": "2026-09-15"
+      },
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "title": "Academic Rules and Regulations of NSUT - Clause 11 Attendance and Detention (enclosed with attendance notification)",
+        "section": "11.6",
+        "page": 2,
+        "version": "1.0",
+        "effective_from": "2026-09-15"
+      },
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "title": "Academic Rules and Regulations of NSUT - Clause 11 Attendance and Detention (enclosed with attendance notification)",
+        "section": "11.2",
+        "page": 2,
+        "version": "1.0",
+        "effective_from": "2026-09-15"
+      }
+    ],
+    "tools_invoked": [
+      {
+        "tool": "find_course",
+        "input": {
+          "query": "Data Structures"
+        },
+        "output": {
+          "status": "ok",
+          "course_code": "CS301",
+          "course_name": "Data Structures"
+        }
+      },
+      {
+        "tool": "check_exam_eligibility",
+        "input": {
+          "course_code": "CS301",
+          "as_of_date": "2026-10-06"
+        },
+        "output": {
+          "course_code": "CS301",
+          "classes_held": 40,
+          "classes_attended": 24,
+          "attendance_pct": 60.0,
+          "required_pct": 75.0,
+          "rule_id": "ATT-MIN-01",
+          "source_doc_id": "NSUT-ACAD-RULES-ATT",
+          "source_section": "11.2",
+          "result": "NOT_ELIGIBLE",
+          "classes_short": 6,
+          "additional_classes_needed_if_all_attended": 24,
+          "relaxation": {
+            "outcome": "ELIGIBLE_IF_DEAN_AND_COMMITTEE_RELAX",
+            "min_with_dean_relaxation_pct": 65.0,
+            "min_with_committee_relaxation_pct": 60.0,
+            "floor_after_relaxation_pct": 60.0,
+            "rule_ids": [
+              "ATT-RELAX-DEAN-01",
+              "ATT-RELAX-COMM-01"
+            ],
+            "all_rule_ids": [
+              "ATT-RELAX-DEAN-01",
+              "ATT-RELAX-COMM-01",
+              "ATT-FLOOR-01"
+            ]
+          }
+        }
+      }
+    ],
+    "applied_rules": [
+      {
+        "rule_id": "ATT-RELAX-DEAN-01",
+        "value": "<=10%",
+        "source_doc_id": "NSUT-ACAD-RULES-ATT"
+      },
+      {
+        "rule_id": "ATT-RELAX-COMM-01",
+        "value": "<=5%",
+        "source_doc_id": "NSUT-ACAD-RULES-ATT"
+      },
+      {
+        "rule_id": "ATT-FLOOR-01",
+        "value": ">=60%",
+        "source_doc_id": "NSUT-ACAD-RULES-ATT"
+      },
+      {
+        "rule_id": "ATT-MIN-01",
+        "value": ">=75%",
+        "source_doc_id": "NSUT-ACAD-RULES-ATT"
+      }
+    ],
+    "conflicts_detected": [
+      {
+        "parameter": "min_attendance_pct",
+        "status": "resolved",
+        "winner": {
+          "doc_id": "NSUT-ACAD-RULES-ATT",
+          "section": "11.2",
+          "value": ">=75%"
+        },
+        "overridden": {
+          "doc_id": "SYN-FAQ-01",
+          "section": "Q1",
+          "value": ">=65%"
+        },
+        "reason": "step 3: NSUT-ACAD-RULES-ATT#11.2 (level 1) outranks SYN-FAQ-01#Q1 (level 4)"
+      }
+    ],
+    "explanation": "You are not eligible to appear in the end-semester exam for CS301 (Data Structures) because your attendance of 60.0% is below the required 75% as per Rule ATT-MIN-01 (NSUT-ACAD-RULES-ATT §11.2). However, with the Dean's and committee's relaxation, the minimum attendance floor is set to 60% under Rule ATT-FLOOR-01 (NSUT-ACAD-RULES-ATT §11.6).",
+    "as_of_date": "2026-10-06",
+    "upcoming_changes": [
+      {
+        "doc_id": "SYN-CIRC-01",
+        "section": "1",
+        "rule_id": "ATT-SYN-CIRC-01",
+        "value": ">=80%",
+        "effective_from": "2027-01-01",
+        "note": "not yet effective on as_of_date"
+      }
+    ],
+    "assumptions": [
+      "Relaxation is discretionary and needs supporting documents; the outcome above is what the rules permit, not a decision."
+    ],
+    "session_id": null
+  },
+  "audit": {
+    "trace_id": "3e5b9946",
+    "timestamp": "2026-10-06T10:38:52Z",
+    "student_id": "S1052",
+    "question": "If the Dean grants relaxation, can I appear in the end-sem exam for Data Structures?",
+    "question_category": "personal_eligibility",
+    "rewritten_question": "If the Dean grants relaxation, can I appear in the end-sem exam for Data Structures?",
+    "memory_used": false,
+    "as_of_date": "2026-10-06",
+    "route": "hybrid",
+    "plan": [
+      "find_course",
+      "check_exam_eligibility",
+      "retrieve"
+    ],
+    "sources_retrieved": [
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "section": "11.3",
+        "page": 2,
+        "score": 0.7922
+      },
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "section": "11.4",
+        "page": 2,
+        "score": 0.7675
+      },
+      {
+        "doc_id": "SYN-FAQ-01",
+        "section": "Q1",
+        "page": 1,
+        "score": 0.7364
+      },
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "section": "11.2",
+        "page": 2,
+        "score": 0.7238
+      },
+      {
+        "doc_id": "SYN-CIRC-01",
+        "section": "2",
+        "page": 1,
+        "score": 0.7188
+      },
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "section": "11.6",
+        "page": 2,
+        "score": 0.7145
+      },
+      {
+        "doc_id": "NSUT-SHORTATT-II-2025",
+        "section": "p1",
+        "page": 1,
+        "score": 0.714
+      },
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "section": "11.5",
+        "page": 2,
+        "score": 0.712
+      }
+    ],
+    "precedence_decision": "step 1: SYN-CIRC-01#2 not yet effective (from 2027-01-01) -> upcoming change",
+    "conflicts": [
+      {
+        "parameter": "min_attendance_pct",
+        "status": "resolved",
+        "winner": {
+          "doc_id": "NSUT-ACAD-RULES-ATT",
+          "section": "11.2",
+          "value": ">=75%"
+        },
+        "overridden": {
+          "doc_id": "SYN-FAQ-01",
+          "section": "Q1",
+          "value": ">=65%"
+        },
+        "reason": "step 3: NSUT-ACAD-RULES-ATT#11.2 (level 1) outranks SYN-FAQ-01#Q1 (level 4)"
+      }
+    ],
+    "upcoming_changes": [
+      {
+        "doc_id": "SYN-CIRC-01",
+        "section": "1",
+        "rule_id": "ATT-SYN-CIRC-01",
+        "value": ">=80%",
+        "effective_from": "2027-01-01",
+        "note": "not yet effective on as_of_date"
+      }
+    ],
+    "tools_invoked": [
+      {
+        "tool": "find_course",
+        "input": {
+          "query": "Data Structures"
+        },
+        "output": {
+          "status": "ok",
+          "course_code": "CS301",
+          "course_name": "Data Structures"
+        },
+        "status": "ok",
+        "ms": 1
+      },
+      {
+        "tool": "check_exam_eligibility",
+        "input": {
+          "course_code": "CS301",
+          "as_of_date": "2026-10-06"
+        },
+        "output": {
+          "course_code": "CS301",
+          "classes_held": 40,
+          "classes_attended": 24,
+          "attendance_pct": 60.0,
+          "required_pct": 75.0,
+          "rule_id": "ATT-MIN-01",
+          "source_doc_id": "NSUT-ACAD-RULES-ATT",
+          "source_section": "11.2",
+          "result": "NOT_ELIGIBLE",
+          "classes_short": 6,
+          "additional_classes_needed_if_all_attended": 24,
+          "relaxation": {
+            "outcome": "ELIGIBLE_IF_DEAN_AND_COMMITTEE_RELAX",
+            "min_with_dean_relaxation_pct": 65.0,
+            "min_with_committee_relaxation_pct": 60.0,
+            "floor_after_relaxation_pct": 60.0,
+            "rule_ids": [
+              "ATT-RELAX-DEAN-01",
+              "ATT-RELAX-COMM-01"
+            ],
+            "all_rule_ids": [
+              "ATT-RELAX-DEAN-01",
+              "ATT-RELAX-COMM-01",
+              "ATT-FLOOR-01"
+            ]
+          }
+        },
+        "status": "ok",
+        "ms": 4
+      }
+    ],
+    "rules_applied": [
+      {
+        "rule_id": "ATT-RELAX-DEAN-01",
+        "value": "<=10%",
+        "source_doc_id": "NSUT-ACAD-RULES-ATT"
+      },
+      {
+        "rule_id": "ATT-RELAX-COMM-01",
+        "value": "<=5%",
+        "source_doc_id": "NSUT-ACAD-RULES-ATT"
+      },
+      {
+        "rule_id": "ATT-FLOOR-01",
+        "value": ">=60%",
+        "source_doc_id": "NSUT-ACAD-RULES-ATT"
+      },
+      {
+        "rule_id": "ATT-MIN-01",
+        "value": ">=75%",
+        "source_doc_id": "NSUT-ACAD-RULES-ATT"
+      }
+    ],
+    "citations": [
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "title": "Academic Rules and Regulations of NSUT - Clause 11 Attendance and Detention (enclosed with attendance notification)",
+        "section": "11.3",
+        "page": 2,
+        "version": "1.0",
+        "effective_from": "2026-09-15"
+      },
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "title": "Academic Rules and Regulations of NSUT - Clause 11 Attendance and Detention (enclosed with attendance notification)",
+        "section": "11.4",
+        "page": 2,
+        "version": "1.0",
+        "effective_from": "2026-09-15"
+      },
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "title": "Academic Rules and Regulations of NSUT - Clause 11 Attendance and Detention (enclosed with attendance notification)",
+        "section": "11.6",
+        "page": 2,
+        "version": "1.0",
+        "effective_from": "2026-09-15"
+      },
+      {
+        "doc_id": "NSUT-ACAD-RULES-ATT",
+        "title": "Academic Rules and Regulations of NSUT - Clause 11 Attendance and Detention (enclosed with attendance notification)",
+        "section": "11.2",
+        "page": 2,
+        "version": "1.0",
+        "effective_from": "2026-09-15"
+      }
+    ],
+    "answer_type": "calculated",
+    "answer": "You are not eligible to appear in the end-semester exam for CS301 (Data Structures): attendance 60.0% (24/40) is below the required 75% - short by 6 class(es). 60.0% is below the Dean's relaxation limit but within the further exceptional relaxation (down to 60%) on committee recommendation.",
+    "model": "qwen3:8b",
+    "llm_calls": 2,
+    "tokens": 1351,
+    "latency_ms": 38216,
+    "node_timings": {
+      "auth_guard": 1,
+      "contextualize": 0,
+      "query_router": 9541,
+      "hybrid_path": 42,
+      "evidence_validator": 0,
+      "generate": 28624,
+      "guardrails": 1
+    },
+    "warnings": []
+  }
+}

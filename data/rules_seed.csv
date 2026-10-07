@@ -1,0 +1,6 @@
+rule_id,description,parameter,operator,value,scope_programmes,scope_batches,effective_from,effective_to,source_doc_id,source_section
+ATT-MIN-01,"Minimum attendance of 75% of classes held in a subject till MSE/ESE to appear in MSE/ESE",min_attendance_pct,>=,75,,,,,NSUT-ACAD-RULES-ATT,11.2
+ATT-RELAX-DEAN-01,"Dean Academics may allow relaxation in the minimum attendance up to 10% (documented authorised activity / medical reasons, submitted to HoD within 7 days)",attendance_relaxation_dean_pct,<=,10,,,,,NSUT-ACAD-RULES-ATT,11.3
+ATT-RELAX-COMM-01,"Under exceptional circumstances a further relaxation up to 5% on committee recommendation",attendance_relaxation_committee_pct,<=,5,,,,,NSUT-ACAD-RULES-ATT,11.4
+ATT-RELAX-MAX-01,"Attendance relaxation may be granted a maximum of 2 times during the programme",max_attendance_relaxations,<=,2,,,,,NSUT-ACAD-RULES-ATT,11.5
+ATT-FLOOR-01,"Not permitted to appear in MSE/ESE if attendance is below 60% after relaxation",min_attendance_after_relaxation_pct,>=,60,,,,,NSUT-ACAD-RULES-ATT,11.6

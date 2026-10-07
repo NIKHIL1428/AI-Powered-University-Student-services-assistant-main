@@ -1,0 +1,152 @@
+{
+  "response": {
+    "trace_id": "4b6f6552",
+    "answer": "The last date to apply for the Kotak Kanya Scholarship is 30 September, 2026.",
+    "answer_type": "retrieved_fact",
+    "citations": [
+      {
+        "doc_id": "NSUT-SCH-KOTAK-2026",
+        "title": "Endorsement: Kotak Kanya Scholarship 2026-27",
+        "section": "p1",
+        "page": 1,
+        "version": "1.0",
+        "effective_from": "2026-09-07"
+      },
+      {
+        "doc_id": "NSUT-SCH-KOTAK-2026",
+        "title": "Endorsement: Kotak Kanya Scholarship 2026-27",
+        "section": "p2",
+        "page": 2,
+        "version": "1.0",
+        "effective_from": "2026-09-07"
+      },
+      {
+        "doc_id": "NSUT-SCH-KOTAK-2026",
+        "title": "Endorsement: Kotak Kanya Scholarship 2026-27",
+        "section": "p3",
+        "page": 3,
+        "version": "1.0",
+        "effective_from": "2026-09-07"
+      }
+    ],
+    "tools_invoked": [],
+    "applied_rules": [],
+    "conflicts_detected": [],
+    "explanation": "The document states that the application deadline is September 30, 2026.",
+    "as_of_date": "2026-10-06",
+    "upcoming_changes": [],
+    "assumptions": [],
+    "session_id": null
+  },
+  "audit": {
+    "trace_id": "4b6f6552",
+    "timestamp": "2026-10-06T10:39:28Z",
+    "student_id": null,
+    "question": "Till when can I apply for the Kotak Kanya Scholarship?",
+    "question_category": "out_of_scope",
+    "rewritten_question": "Till when can I apply for the Kotak Kanya Scholarship?",
+    "memory_used": false,
+    "as_of_date": "2026-10-06",
+    "route": "rag",
+    "plan": [
+      "retrieve"
+    ],
+    "sources_retrieved": [
+      {
+        "doc_id": "NSUT-SCH-KOTAK-2026",
+        "section": "p1",
+        "page": 1,
+        "score": 0.8512
+      },
+      {
+        "doc_id": "NSUT-SCH-KOTAK-2026",
+        "section": "p2",
+        "page": 2,
+        "score": 0.8329
+      },
+      {
+        "doc_id": "NSUT-SCH-KOTAK-2026",
+        "section": "p3",
+        "page": 3,
+        "score": 0.8215
+      },
+      {
+        "doc_id": "NSUT-SCH-NSP-EXT-2025-12",
+        "section": "p1",
+        "page": 1,
+        "score": 0.6712
+      },
+      {
+        "doc_id": "NSUT-SCH-NSP-2026",
+        "section": "21",
+        "page": 5,
+        "score": 0.6576
+      },
+      {
+        "doc_id": "NSUT-SCH-NSP-2026",
+        "section": "20",
+        "page": 5,
+        "score": 0.6547
+      },
+      {
+        "doc_id": "NSUT-SCH-NSP-2026",
+        "section": "19",
+        "page": 5,
+        "score": 0.652
+      },
+      {
+        "doc_id": "NSUT-SCH-NSP-2026",
+        "section": "16",
+        "page": 5,
+        "score": 0.6491
+      }
+    ],
+    "precedence_decision": "no competing sources",
+    "conflicts": [],
+    "upcoming_changes": [],
+    "tools_invoked": [],
+    "rules_applied": [],
+    "citations": [
+      {
+        "doc_id": "NSUT-SCH-KOTAK-2026",
+        "title": "Endorsement: Kotak Kanya Scholarship 2026-27",
+        "section": "p1",
+        "page": 1,
+        "version": "1.0",
+        "effective_from": "2026-09-07"
+      },
+      {
+        "doc_id": "NSUT-SCH-KOTAK-2026",
+        "title": "Endorsement: Kotak Kanya Scholarship 2026-27",
+        "section": "p2",
+        "page": 2,
+        "version": "1.0",
+        "effective_from": "2026-09-07"
+      },
+      {
+        "doc_id": "NSUT-SCH-KOTAK-2026",
+        "title": "Endorsement: Kotak Kanya Scholarship 2026-27",
+        "section": "p3",
+        "page": 3,
+        "version": "1.0",
+        "effective_from": "2026-09-07"
+      }
+    ],
+    "answer_type": "retrieved_fact",
+    "answer": "The last date to apply for the Kotak Kanya Scholarship is 30 September, 2026.",
+    "model": "qwen3:8b",
+    "llm_calls": 2,
+    "tokens": 2537,
+    "latency_ms": 36394,
+    "node_timings": {
+      "auth_guard": 0,
+      "contextualize": 0,
+      "query_router": 8289,
+      "rag_path": 32,
+      "evidence_validator": 0,
+      "generate": 28061,
+      "guardrails": 4
+    },
+    "warnings": []
+  }
+}

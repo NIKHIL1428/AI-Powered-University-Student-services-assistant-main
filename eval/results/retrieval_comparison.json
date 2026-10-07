@@ -1,0 +1,666 @@
+{
+  "bge_k4": {
+    "config": {
+      "description": "bge-small, top_k 4",
+      "embed_model": "bge",
+      "top_k": 4,
+      "chunk_strategy": "clause"
+    },
+    "n": 17,
+    "hit_rate": 82.4,
+    "avg_retrieval_ms": 20.9,
+    "per_question": [
+      {
+        "id": "Q05",
+        "hit": true,
+        "top": [
+          "SYN-FAQ-01#Q1",
+          "NSUT-ACAD-RULES-ATT#11.2",
+          "NSUT-SHORTATT-II-2025#p1"
+        ]
+      },
+      {
+        "id": "Q06",
+        "hit": true,
+        "top": [
+          "SYN-FAQ-01#Q1",
+          "NSUT-ACAD-RULES-ATT#11.2",
+          "NSUT-SHORTATT-II-2025#p1"
+        ]
+      },
+      {
+        "id": "Q07",
+        "hit": true,
+        "top": [
+          "SYN-FAQ-01#Q1",
+          "NSUT-ACAD-RULES-ATT#11.2",
+          "SYN-CIRC-01#1"
+        ]
+      },
+      {
+        "id": "Q08",
+        "hit": true,
+        "top": [
+          "NSUT-DETENTION-2025-11#p1",
+          "NSUT-SHORTATT-I-2025#p1",
+          "NSUT-SHORTATT-IIISEM-2025#p1"
+        ]
+      },
+      {
+        "id": "Q09",
+        "hit": false,
+        "top": [
+          "SYN-CIRC-01#1",
+          "NSUT-ATT-NOTIF-2025-10#p1",
+          "NSUT-SHORTATT-I-2025#p1"
+        ]
+      },
+      {
+        "id": "Q11",
+        "hit": false,
+        "top": [
+          "NSUT-SHORTATT-IIISEM-2025#p1",
+          "NSUT-SHORTATT-II-2025#p1",
+          "NSUT-SHORTATT-III-2025#p1"
+        ]
+      },
+      {
+        "id": "Q12",
+        "hit": false,
+        "top": [
+          "NSUT-SHORTATT-IIISEM-2025#p1",
+          "NSUT-SHORTATT-II-2025#p1",
+          "NSUT-SHORTATT-III-2025#p1"
+        ]
+      },
+      {
+        "id": "Q19",
+        "hit": true,
+        "top": [
+          "NSUT-ACAD-RULES-ATT#11.3",
+          "NSUT-REG-EVEN-2026#15",
+          "NSUT-ACAD-RULES-ATT#11.4"
+        ]
+      },
+      {
+        "id": "Q20",
+        "hit": true,
+        "top": [
+          "NSUT-ACAD-RULES-ATT#11.3",
+          "NSUT-ACAD-RULES-ATT#11.4",
+          "SYN-FAQ-01#Q2"
+        ]
+      },
+      {
+        "id": "Q21",
+        "hit": true,
+        "top": [
+          "NSUT-TNP-POLICY-2025-26#1",
+          "NSUT-TNP-POLICY-2025-26#p5",
+          "NSUT-TNP-POLICY-2025-26#p4"
+        ]
+      },
+      {
+        "id": "Q22",
+        "hit": true,
+        "top": [
+          "NSUT-ACAD-RULES-ATT#11.4",
+          "NSUT-ACAD-RULES-ATT#11.3",
+          "NSUT-ACAD-RULES-ATT#11.5"
+        ]
+      },
+      {
+        "id": "Q23",
+        "hit": true,
+        "top": [
+          "NSUT-ACAD-RULES-ATT#11.5",
+          "NSUT-ACAD-RULES-ATT#11.3",
+          "SYN-CIRC-01#2"
+        ]
+      },
+      {
+        "id": "Q24",
+        "hit": true,
+        "top": [
+          "NSUT-SCH-KOTAK-2026#p1",
+          "NSUT-SCH-KOTAK-2026#p2",
+          "NSUT-SCH-KOTAK-2026#p3"
+        ]
+      },
+      {
+        "id": "Q25",
+        "hit": true,
+        "top": [
+          "NSUT-LIB-SATURDAY-2023#p1",
+          "NSUT-LIB-LENDING-2026-04#p1",
+          "NSUT-LIB-EXTHOURS-2026-04#p1"
+        ]
+      },
+      {
+        "id": "Q26",
+        "hit": true,
+        "top": [
+          "NSUT-TNP-POLICY-2025-26#2",
+          "NSUT-TNP-POLICY-2025-26#2",
+          "NSUT-TNP-POLICY-2025-26#p5"
+        ]
+      },
+      {
+        "id": "Q27",
+        "hit": true,
+        "top": [
+          "NSUT-SCH-NSP-2026#p1",
+          "NSUT-SCH-AICTE-2026#p1",
+          "NSUT-SCH-NSP-2026#7"
+        ]
+      },
+      {
+        "id": "Q28",
+        "hit": true,
+        "top": [
+          "SYN-FAQ-01#Q2",
+          "NSUT-ATT-NOTIF-2026-02#p1",
+          "NSUT-ACAD-RULES-ATT#11.3"
+        ]
+      }
+    ]
+  },
+  "bge_k8": {
+    "config": {
+      "description": "default - bge-small, clause-aware chunks, top_k 8",
+      "embed_model": "bge",
+      "top_k": 8,
+      "chunk_strategy": "clause"
+    },
+    "n": 17,
+    "hit_rate": 82.4,
+    "avg_retrieval_ms": 22.3,
+    "per_question": [
+      {
+        "id": "Q05",
+        "hit": true,
+        "top": [
+          "SYN-FAQ-01#Q1",
+          "NSUT-ACAD-RULES-ATT#11.2",
+          "NSUT-SHORTATT-II-2025#p1"
+        ]
+      },
+      {
+        "id": "Q06",
+        "hit": true,
+        "top": [
+          "SYN-FAQ-01#Q1",
+          "NSUT-ACAD-RULES-ATT#11.2",
+          "NSUT-SHORTATT-II-2025#p1"
+        ]
+      },
+      {
+        "id": "Q07",
+        "hit": true,
+        "top": [
+          "SYN-FAQ-01#Q1",
+          "NSUT-ACAD-RULES-ATT#11.2",
+          "SYN-CIRC-01#1"
+        ]
+      },
+      {
+        "id": "Q08",
+        "hit": true,
+        "top": [
+          "NSUT-DETENTION-2025-11#p1",
+          "NSUT-SHORTATT-I-2025#p1",
+          "NSUT-SHORTATT-IIISEM-2025#p1"
+        ]
+      },
+      {
+        "id": "Q09",
+        "hit": false,
+        "top": [
+          "SYN-CIRC-01#1",
+          "NSUT-ATT-NOTIF-2025-10#p1",
+          "NSUT-SHORTATT-I-2025#p1"
+        ]
+      },
+      {
+        "id": "Q11",
+        "hit": false,
+        "top": [
+          "NSUT-SHORTATT-IIISEM-2025#p1",
+          "NSUT-SHORTATT-II-2025#p1",
+          "NSUT-SHORTATT-III-2025#p1"
+        ]
+      },
+      {
+        "id": "Q12",
+        "hit": false,
+        "top": [
+          "NSUT-SHORTATT-IIISEM-2025#p1",
+          "NSUT-SHORTATT-II-2025#p1",
+          "NSUT-SHORTATT-III-2025#p1"
+        ]
+      },
+      {
+        "id": "Q19",
+        "hit": true,
+        "top": [
+          "NSUT-ACAD-RULES-ATT#11.3",
+          "NSUT-REG-EVEN-2026#15",
+          "NSUT-ACAD-RULES-ATT#11.4"
+        ]
+      },
+      {
+        "id": "Q20",
+        "hit": true,
+        "top": [
+          "NSUT-ACAD-RULES-ATT#11.3",
+          "NSUT-ACAD-RULES-ATT#11.4",
+          "SYN-FAQ-01#Q2"
+        ]
+      },
+      {
+        "id": "Q21",
+        "hit": true,
+        "top": [
+          "NSUT-TNP-POLICY-2025-26#1",
+          "NSUT-TNP-POLICY-2025-26#p5",
+          "NSUT-TNP-POLICY-2025-26#p4"
+        ]
+      },
+      {
+        "id": "Q22",
+        "hit": true,
+        "top": [
+          "NSUT-ACAD-RULES-ATT#11.4",
+          "NSUT-ACAD-RULES-ATT#11.3",
+          "NSUT-ACAD-RULES-ATT#11.5"
+        ]
+      },
+      {
+        "id": "Q23",
+        "hit": true,
+        "top": [
+          "NSUT-ACAD-RULES-ATT#11.5",
+          "NSUT-ACAD-RULES-ATT#11.3",
+          "SYN-CIRC-01#2"
+        ]
+      },
+      {
+        "id": "Q24",
+        "hit": true,
+        "top": [
+          "NSUT-SCH-KOTAK-2026#p1",
+          "NSUT-SCH-KOTAK-2026#p2",
+          "NSUT-SCH-KOTAK-2026#p3"
+        ]
+      },
+      {
+        "id": "Q25",
+        "hit": true,
+        "top": [
+          "NSUT-LIB-SATURDAY-2023#p1",
+          "NSUT-LIB-LENDING-2026-04#p1",
+          "NSUT-LIB-EXTHOURS-2026-04#p1"
+        ]
+      },
+      {
+        "id": "Q26",
+        "hit": true,
+        "top": [
+          "NSUT-TNP-POLICY-2025-26#2",
+          "NSUT-TNP-POLICY-2025-26#2",
+          "NSUT-TNP-POLICY-2025-26#p5"
+        ]
+      },
+      {
+        "id": "Q27",
+        "hit": true,
+        "top": [
+          "NSUT-SCH-NSP-2026#p1",
+          "NSUT-SCH-AICTE-2026#p1",
+          "NSUT-SCH-NSP-2026#7"
+        ]
+      },
+      {
+        "id": "Q28",
+        "hit": true,
+        "top": [
+          "SYN-FAQ-01#Q2",
+          "NSUT-ATT-NOTIF-2026-02#p1",
+          "NSUT-ACAD-RULES-ATT#11.3"
+        ]
+      }
+    ]
+  },
+  "minilm_k8": {
+    "config": {
+      "description": "all-MiniLM-L6-v2, top_k 8",
+      "embed_model": "minilm",
+      "top_k": 8,
+      "chunk_strategy": "clause"
+    },
+    "n": 17,
+    "hit_rate": 76.5,
+    "avg_retrieval_ms": 13.0,
+    "per_question": [
+      {
+        "id": "Q05",
+        "hit": true,
+        "top": [
+          "SYN-FAQ-01#Q1",
+          "NSUT-ACAD-RULES-ATT#11.2",
+          "SYN-CIRC-01#1"
+        ]
+      },
+      {
+        "id": "Q06",
+        "hit": true,
+        "top": [
+          "SYN-FAQ-01#Q1",
+          "NSUT-ACAD-RULES-ATT#11.2",
+          "SYN-CIRC-01#1"
+        ]
+      },
+      {
+        "id": "Q07",
+        "hit": true,
+        "top": [
+          "SYN-FAQ-01#Q1",
+          "SYN-CIRC-01#2",
+          "SYN-CIRC-01#1"
+        ]
+      },
+      {
+        "id": "Q08",
+        "hit": true,
+        "top": [
+          "NSUT-DETENTION-2025-11#p1",
+          "NSUT-SHORTATT-IIISEM-2025#p1",
+          "NSUT-SHORTATT-II-2025#p1"
+        ]
+      },
+      {
+        "id": "Q09",
+        "hit": false,
+        "top": [
+          "SYN-CIRC-01#1",
+          "SYN-CIRC-01#2",
+          "SYN-CIRC-01#p1"
+        ]
+      },
+      {
+        "id": "Q11",
+        "hit": false,
+        "top": [
+          "NSUT-ACADCAL-ODD-2026#2",
+          "NSUT-SHORTATT-II-2025#p1",
+          "NSUT-REG-EVEN-2026#26"
+        ]
+      },
+      {
+        "id": "Q12",
+        "hit": false,
+        "top": [
+          "NSUT-ACADCAL-ODD-2026#2",
+          "NSUT-SHORTATT-II-2025#p1",
+          "NSUT-REG-EVEN-2026#26"
+        ]
+      },
+      {
+        "id": "Q19",
+        "hit": false,
+        "top": [
+          "NSUT-REG-EVEN-2026#12",
+          "NSUT-ACADCAL-ODD-2026#2",
+          "NSUT-REG-EVEN-2026#5"
+        ]
+      },
+      {
+        "id": "Q20",
+        "hit": true,
+        "top": [
+          "NSUT-ATT-NOTIF-2026-02#p1",
+          "NSUT-SHORTATT-II-2025#p1",
+          "NSUT-ACAD-RULES-ATT#11.3"
+        ]
+      },
+      {
+        "id": "Q21",
+        "hit": true,
+        "top": [
+          "NSUT-TNP-POLICY-2025-26#2",
+          "NSUT-TNP-POLICY-2025-26#7",
+          "NSUT-TNP-POLICY-2025-26#2"
+        ]
+      },
+      {
+        "id": "Q22",
+        "hit": true,
+        "top": [
+          "NSUT-ACAD-RULES-ATT#11.4",
+          "NSUT-ACAD-RULES-ATT#11.3",
+          "NSUT-ACAD-RULES-ATT#11.2"
+        ]
+      },
+      {
+        "id": "Q23",
+        "hit": true,
+        "top": [
+          "NSUT-ACAD-RULES-ATT#11.5",
+          "SYN-CIRC-01#2",
+          "NSUT-ACAD-RULES-ATT#11.3"
+        ]
+      },
+      {
+        "id": "Q24",
+        "hit": true,
+        "top": [
+          "NSUT-SCH-KOTAK-2026#p1",
+          "NSUT-SCH-KOTAK-2026#p2",
+          "NSUT-SCH-KOTAK-2026#p3"
+        ]
+      },
+      {
+        "id": "Q25",
+        "hit": true,
+        "top": [
+          "NSUT-LIB-EXTHOURS-2026-04#p1",
+          "NSUT-LIB-SATURDAY-2023#p1",
+          "NSUT-LIB-CLOSED-2026-01#p1"
+        ]
+      },
+      {
+        "id": "Q26",
+        "hit": true,
+        "top": [
+          "NSUT-TNP-POLICY-2025-26#2",
+          "NSUT-TNP-POLICY-2025-26#p5",
+          "NSUT-TNP-POLICY-2025-26#2"
+        ]
+      },
+      {
+        "id": "Q27",
+        "hit": true,
+        "top": [
+          "NSUT-SCH-NSP-2026#p1",
+          "NSUT-SCH-AICTE-2026#p1",
+          "NSUT-SCH-NSP-2026#9"
+        ]
+      },
+      {
+        "id": "Q28",
+        "hit": true,
+        "top": [
+          "SYN-FAQ-01#Q2",
+          "NSUT-ATT-NOTIF-2026-02#p1",
+          "NSUT-REG-EVEN-2026#5"
+        ]
+      }
+    ]
+  },
+  "bge_fixed_k8": {
+    "config": {
+      "description": "bge-small, fixed 500-char chunks, top_k 8",
+      "embed_model": "bge",
+      "top_k": 8,
+      "chunk_strategy": "fixed"
+    },
+    "n": 17,
+    "hit_rate": 76.5,
+    "avg_retrieval_ms": 24.6,
+    "per_question": [
+      {
+        "id": "Q05",
+        "hit": true,
+        "top": [
+          "SYN-CIRC-01#p1",
+          "NSUT-SHORTATT-II-2025#p1",
+          "NSUT-ACADCAL-ODD-2026#p2"
+        ]
+      },
+      {
+        "id": "Q06",
+        "hit": false,
+        "top": [
+          "SYN-CIRC-01#p1",
+          "NSUT-SHORTATT-II-2025#p1",
+          "NSUT-ACADCAL-ODD-2026#p2"
+        ]
+      },
+      {
+        "id": "Q07",
+        "hit": true,
+        "top": [
+          "SYN-FAQ-01#p1",
+          "SYN-CIRC-01#p1",
+          "NSUT-ACAD-RULES-ATT#p2"
+        ]
+      },
+      {
+        "id": "Q08",
+        "hit": true,
+        "top": [
+          "NSUT-DETENTION-2025-11#p1",
+          "NSUT-SHORTATT-I-2025#p1",
+          "NSUT-SHORTATT-IIISEM-2025#p1"
+        ]
+      },
+      {
+        "id": "Q09",
+        "hit": false,
+        "top": [
+          "SYN-CIRC-01#p1",
+          "SYN-CIRC-01#p1",
+          "NSUT-ATT-NOTIF-2025-10#p1"
+        ]
+      },
+      {
+        "id": "Q11",
+        "hit": false,
+        "top": [
+          "NSUT-ACADCAL-ODD-2026#p4",
+          "NSUT-ACADCAL-ODD-2026#p4",
+          "NSUT-SHORTATT-IIISEM-2025#p1"
+        ]
+      },
+      {
+        "id": "Q12",
+        "hit": false,
+        "top": [
+          "NSUT-ACADCAL-ODD-2026#p4",
+          "NSUT-ACADCAL-ODD-2026#p4",
+          "NSUT-SHORTATT-IIISEM-2025#p1"
+        ]
+      },
+      {
+        "id": "Q19",
+        "hit": true,
+        "top": [
+          "NSUT-ACAD-RULES-ATT#p2",
+          "NSUT-LIB-EXTHOURS-2026-04#p1",
+          "NSUT-ACADCAL-ODD-2026#p4"
+        ]
+      },
+      {
+        "id": "Q20",
+        "hit": true,
+        "top": [
+          "NSUT-ATT-NOTIF-2026-02#p1",
+          "NSUT-ACAD-RULES-ATT#p2",
+          "NSUT-SHORTATT-I-2025#p1"
+        ]
+      },
+      {
+        "id": "Q21",
+        "hit": true,
+        "top": [
+          "NSUT-TNP-POLICY-2025-26#p5",
+          "NSUT-TNP-POLICY-2025-26#p5",
+          "NSUT-TNP-POLICY-2025-26#p8"
+        ]
+      },
+      {
+        "id": "Q22",
+        "hit": true,
+        "top": [
+          "NSUT-ACAD-RULES-ATT#p2",
+          "NSUT-ACAD-RULES-ATT#p2",
+          "NSUT-ACAD-RULES-ATT#p2"
+        ]
+      },
+      {
+        "id": "Q23",
+        "hit": true,
+        "top": [
+          "NSUT-ACAD-RULES-ATT#p2",
+          "NSUT-ACAD-RULES-ATT#p2",
+          "NSUT-ACAD-RULES-ATT#p2"
+        ]
+      },
+      {
+        "id": "Q24",
+        "hit": true,
+        "top": [
+          "NSUT-SCH-KOTAK-2026#p3",
+          "NSUT-SCH-KOTAK-2026#p2",
+          "NSUT-SCH-KOTAK-2026#p1"
+        ]
+      },
+      {
+        "id": "Q25",
+        "hit": true,
+        "top": [
+          "NSUT-LIB-SATURDAY-2023#p1",
+          "NSUT-LIB-SATURDAY-2023#p1",
+          "NSUT-LIB-LENDING-2026-04#p1"
+        ]
+      },
+      {
+        "id": "Q26",
+        "hit": true,
+        "top": [
+          "NSUT-TNP-POLICY-2025-26#p6",
+          "NSUT-TNP-POLICY-2025-26#p6",
+          "NSUT-TNP-POLICY-2025-26#p6"
+        ]
+      },
+      {
+        "id": "Q27",
+        "hit": true,
+        "top": [
+          "NSUT-SCH-NSP-2026#p1",
+          "NSUT-SCH-AICTE-2026#p1",
+          "NSUT-SCH-AICTE-2026#p1"
+        ]
+      },
+      {
+        "id": "Q28",
+        "hit": true,
+        "top": [
+          "NSUT-ATT-NOTIF-2026-02#p1",
+          "NSUT-ATT-NOTIF-2026-02#p1",
+          "SYN-FAQ-01#p1"
+        ]
+      }
+    ]
+  }
+}

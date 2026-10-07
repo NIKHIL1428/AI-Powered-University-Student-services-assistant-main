@@ -1,0 +1,4 @@
+description: all-MiniLM-L6-v2, top_k 8
+embed_model: minilm
+top_k: 8
+chunk_strategy: clause

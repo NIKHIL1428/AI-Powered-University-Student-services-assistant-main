@@ -1,0 +1,8 @@
+doc_id,title,issuer,authority_level,doc_type,version,effective_from,effective_to,supersedes,scope_programmes,scope_batches,provenance,retrieved_on,synthetic,file_name
+FIX-REG-2024,Academic Regulations for B.Tech Programmes (Fixture),Office of the Dean (Academics),1,regulation,3.1,2024-07-01,,,B.Tech,ALL,test fixture,2026-10-06,Y,FIX-REG-2024.pdf
+FIX-PLC-2025,Training and Placement Policy 2025 (Fixture),Training and Placement Office,2,circular,1.0,2025-07-01,,,B.Tech,ALL,test fixture,2026-10-06,Y,FIX-PLC-2025.pdf
+FIX-PLC-2027,Training and Placement Policy 2027 (Fixture),Training and Placement Office,2,circular,2.0,2027-01-01,,FIX-PLC-2025#3.1,B.Tech,ALL,test fixture,2026-10-06,Y,FIX-PLC-2027.pdf
+SYN-CIRC-01,Circular ACAD-2026-08: Revised minimum attendance,Office of the Dean (Academics),2,circular,1.0,2026-08-01,,FIX-REG-2024#7.2,B.Tech,ALL,synthetic (created by team),2026-10-06,Y,SYN-CIRC-01.pdf
+SYN-FAQ-01,Student Help-desk FAQ,Student Help-desk,4,faq,2.0,2026-09-15,,,ALL,ALL,synthetic (created by team),2026-10-06,Y,SYN-FAQ-01.pdf
+FIX-DEPT-CSE-01,CSE Department Notice CSE/2026/14 (Fixture),Head of Department CSE,3,notice,1.0,2026-09-01,,FIX-REG-2024#7.2,B.Tech CSE,ALL,test fixture,2026-10-06,Y,FIX-DEPT-CSE-01.pdf
+FIX-UNOFF-01,Student Council forum post (Fixture),Student Council,5,unofficial,1.0,2026-01-01,,,ALL,ALL,test fixture,2026-10-06,Y,FIX-UNOFF-01.pdf

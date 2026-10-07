@@ -1,0 +1,5 @@
+description: full pipeline, deterministic fallbacks only (MOCK_LLM)
+embed_model: bge
+top_k: 8
+chunk_strategy: clause
+mock_llm: true

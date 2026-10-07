@@ -1,0 +1,13 @@
+course_code,course_name,programme,semester,credits
+CS201,Data Structures,B.Tech CSE,3,4
+CS202,Object Oriented Programming,B.Tech CSE,3,4
+CS203,Digital Logic Design,B.Tech CSE,3,3
+MA101,Mathematics-I,B.Tech CSE,1,4
+MA201,Mathematics-III,B.Tech CSE,3,4
+HS201,Engineering Economics,B.Tech CSE,3,2
+IT201,Data Structures,B.Tech IT,3,4
+IT202,Computer Networks,B.Tech IT,3,4
+IT203,Operating Systems,B.Tech IT,3,4
+MA111,Mathematics-I,B.Tech IT,1,4
+MA211,Mathematics-III,B.Tech IT,3,4
+HS211,Engineering Economics,B.Tech IT,3,2

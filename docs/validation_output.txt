@@ -1,0 +1,19 @@
+Validation of E:\HACKATHON\uniassist\data\synthetic
+[students] 52 rows; columns ok
+[courses] 8 rows; columns ok
+[attendance] 104 rows; columns ok
+[results] 103 rows; columns ok
+[students] row violations: 0
+[courses] row violations: 0
+[attendance] row violations: 0
+[results] row violations: 0
+[cross] students with fewer active_backlogs than FAIL/ABSENT courses in results: 0
+[distribution] students per programme x batch: B.Tech CSE 2022=7, B.Tech CSE 2023=8, B.Tech CSE 2024=13, B.Tech ECE 2022=7, B.Tech ECE 2023=8, B.Tech ECE 2024=9
+[distribution] results: PASS=99, FAIL=2, ABSENT=1, DETAINED=1
+[edge cases]
+    OK  attendance exactly 75%: S1004/CS301
+    OK  attendance one class below: S1003/CS301
+    OK  ABSENT result: S1006/CS301
+    OK  DETAINED result: S1051/CS301
+    OK  multiple backlogs (>=2): S1003, S1006, S1009, S1012, S1018, S1022, S1025, S1031 ...
+RESULT: 0 hard violation(s)
